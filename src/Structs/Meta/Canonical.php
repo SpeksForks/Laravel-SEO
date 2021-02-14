@@ -2,13 +2,13 @@
 
 namespace romanzipp\Seo\Structs\Meta;
 
-use romanzipp\Seo\Structs\Meta;
+use romanzipp\Seo\Structs\Link;
 use romanzipp\Seo\Structs\Struct;
 
 /**
  * @see https://github.com/joshbuchea/HEAD#link
  */
-class Canonical extends Meta
+class Canonical extends Link
 {
     protected $unique = true;
 
